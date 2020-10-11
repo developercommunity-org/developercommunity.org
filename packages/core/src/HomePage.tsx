@@ -21,13 +21,7 @@ const HomePage: React.FC<HomePageProps> = (props) => {
         max-width: 1000px;
       `}
     >
-      <h1
-        css={css`
-          margin-bottom: 100px;
-        `}
-      >
-        Welcome to the International Developer Community!
-      </h1>
+      <h1>Welcome to the International Developer Community!</h1>
       <PageSection title="Log In / Sign up">
         <AuthSection />
       </PageSection>

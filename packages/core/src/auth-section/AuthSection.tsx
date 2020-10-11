@@ -54,28 +54,46 @@ const AuthSection: React.FC<AuthSectionProps> = (props) => {
   // Hide firebaseui container if signed in
 
   return signedIn ? (
-    <div css={css``}>
-      <p>{firebase.auth().currentUser?.displayName}</p>
-      <button
-        className="btn"
-        type="button"
-        onClick={async () => {
-          window.location.href = `/user/${
-            firebase.auth().currentUser?.uid
-          }/settings`;
-        }}
+    <div>
+      <p
+        css={css`
+          text-align: center;
+        `}
       >
-        Settings
-      </button>
-      <button
-        className="btn"
-        type="button"
-        onClick={async () => {
-          await firebase.auth().signOut();
-        }}
+        {firebase.auth().currentUser?.displayName}
+      </p>
+      <div
+        css={css`
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          & > * {
+            margin: 0 10px;
+          }
+        `}
       >
-        Sign Out
-      </button>
+        <button
+          className="btn btn-primary"
+          type="button"
+          onClick={async () => {
+            window.location.href = `/user/${
+              firebase.auth().currentUser?.uid
+            }/settings`;
+          }}
+        >
+          Settings
+        </button>
+        <button
+          className="btn btn-primary"
+          type="button"
+          onClick={async () => {
+            await firebase.auth().signOut();
+          }}
+        >
+          Sign Out
+        </button>
+      </div>
     </div>
   ) : (
     <div id="firebaseui-auth-container"></div>
