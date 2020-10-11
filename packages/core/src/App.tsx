@@ -1,8 +1,25 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
 import React from "react";
+import * as firebase from "firebase";
+import * as firebaseui from "firebaseui";
+
 import "./index.scss";
 import PageSection from "./page-sections/PageSection";
+import AuthSection from "./auth-section/AuthSection";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAHa__H-94TcQ0pJ6A2D2Q_B8zNuIos4xg",
+  authDomain: "developercommunity-f64fa.firebaseapp.com",
+  databaseURL: "https://developercommunity-f64fa.firebaseio.com",
+  projectId: "developercommunity-f64fa",
+  storageBucket: "developercommunity-f64fa.appspot.com",
+  messagingSenderId: "441889180619",
+  appId: "1:441889180619:web:446a204a828a247685444e",
+  measurementId: "G-MXNJH44MCD",
+};
+
+firebase.initializeApp(firebaseConfig);
 
 function App() {
   return (
@@ -18,6 +35,9 @@ function App() {
       >
         Welcome to the International Developer Community!
       </h1>
+      <PageSection title="Log In / Sign up">
+        <AuthSection />
+      </PageSection>
       <PageSection title="About">
         <div>
           <p>
