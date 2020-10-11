@@ -6,7 +6,7 @@ import * as firebaseui from "firebaseui";
 
 // FirebaseUI config.
 const uiConfig = {
-  signInSuccessUrl: "<url-to-redirect-to-on-success>",
+  // signInSuccessUrl: "<url-to-redirect-to-on-success>",
   signInOptions: [
     // Leave the lines as is for the providers you want to offer your users.
     firebase.auth.GoogleAuthProvider.PROVIDER_ID,
@@ -57,6 +57,7 @@ const AuthSection: React.FC<AuthSectionProps> = (props) => {
     <div css={css``}>
       <p>{firebase.auth().currentUser?.displayName}</p>
       <button
+        className="btn"
         type="button"
         onClick={async () => {
           window.location.href = `/user/${
@@ -67,6 +68,7 @@ const AuthSection: React.FC<AuthSectionProps> = (props) => {
         Settings
       </button>
       <button
+        className="btn"
         type="button"
         onClick={async () => {
           await firebase.auth().signOut();
