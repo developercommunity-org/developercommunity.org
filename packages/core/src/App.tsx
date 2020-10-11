@@ -74,7 +74,7 @@ function App() {
               </p>
               <p>
                 The community accepts that not all work can and should be public
-                and open source. However, the communities holds that sharing
+                and open source. However, the community holds that sharing
                 knowledge and software openly is inherently beneficial to both
                 themselves, the community, and the world.
               </p>
@@ -92,8 +92,25 @@ function App() {
                 policy.
               </p>
             </li>
+            <li>
+              <h4>Change</h4>
+              <p>
+                The committee reserves the right to modify the constitution with
+                prior discussion and notice.
+              </p>
+            </li>
           </ul>
         </div>
+      </PageSection>
+      <PageSection title="Political Policy">
+        <p className="bold">
+          Note: Members are not required to support all policies that the
+          community backs.
+        </p>
+        <p>The community supports the Black Lives Matter movement.</p>
+        <p>The community supports scientists and reputable scientific communities.</p>
+        <p>The community supports free and fair elections.</p>
+        <p>The community does not believe the earth is flat.</p>
       </PageSection>
     </main>
   );
