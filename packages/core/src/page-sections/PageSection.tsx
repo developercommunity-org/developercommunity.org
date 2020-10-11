@@ -21,7 +21,14 @@ const PageSection: React.FC<PageSectionProps> = (props) => {
         margin-bottom: 100px;
       `}
     >
-      <h2 id={props.id}>{props.title}</h2>
+      <h2
+        id={props.id}
+        css={css`
+          margin-bottom: 30px;
+        `}
+      >
+        {props.title}
+      </h2>
       <div>{props.children}</div>
     </section>
   );

@@ -11,7 +11,13 @@ function App() {
         max-width: 1000px;
       `}
     >
-      <h1>Welcome to the International Developer Community!</h1>
+      <h1
+        css={css`
+          margin-bottom: 100px;
+        `}
+      >
+        Welcome to the International Developer Community!
+      </h1>
       <PageSection title="About">
         <div>
           <p>
@@ -108,7 +114,10 @@ function App() {
           community backs.
         </p>
         <p>The community supports the Black Lives Matter movement.</p>
-        <p>The community supports scientists and reputable scientific communities.</p>
+        <p>
+          The community supports scientists and reputable scientific
+          communities.
+        </p>
         <p>The community supports free and fair elections.</p>
         <p>The community does not believe the earth is flat.</p>
       </PageSection>
