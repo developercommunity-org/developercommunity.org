@@ -53,10 +53,19 @@ const AuthSection: React.FC<AuthSectionProps> = (props) => {
 
   // Hide firebaseui container if signed in
 
-  console.log("user", firebase.auth().currentUser);
   return signedIn ? (
     <div css={css``}>
       <p>{firebase.auth().currentUser?.displayName}</p>
+      <button
+        type="button"
+        onClick={async () => {
+          window.location.href = `/user/${
+            firebase.auth().currentUser?.uid
+          }/settings`;
+        }}
+      >
+        Settings
+      </button>
       <button
         type="button"
         onClick={async () => {
