@@ -42,13 +42,16 @@ function App() {
         <div>
           <p>
             The International Developer Community is open to anyone with an
-            interest in development. In order to contribute to the community, it
-            is recommended that you have a GitHub account. This will allow you
-            to make edits to the community.
+            interest in software development.
           </p>
           <p>
             All community members must abide by the{" "}
             <a href="#constitution">constitution</a> of the community.
+          </p>
+          <p>
+            In order to contribute to the community, it is recommended that you
+            have a GitHub account. This will allow you to participate in
+            community repos and packages.
           </p>
         </div>
       </PageSection>
