@@ -17,7 +17,7 @@ body {
   align-items: center;
   flex-direction: column;
 
-  & * {
+  & *:not(script) {
     display: flex;
     align-items: center;
     flex-direction: column;

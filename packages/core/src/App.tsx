@@ -6,30 +6,26 @@ function App() {
     <main>
       <h1>Welcome to the International Developer Community!</h1>
       <section>
-        <h2></h2>
-      </section>
-      <section>
         <h2>About</h2>
         <div>
           <p>
-            The International Developer Community is an organisation dedicated
-            to helping and supporting software developers around the world.
+            The International Developer Community is a non-profit organization
+            dedicated to helping and supporting software developers around the
+            world.
           </p>
         </div>
       </section>
       <section>
-        <h2>Origin</h2>
         <p>
           The International Developer Community was set up in 2020 as a
-          non-profit organisation to support developers of all creeds and
+          organization to support developers of all creeds, nationalities, and
           technologies.
         </p>
-        <p>The community is headquartered in Dunedin, New Zealand.</p>
       </section>
       <section>
-        <h2>Organisations</h2>
+        <h2>Organizations</h2>
         <div>
-          <a href="nz.developercommunity.org">
+          <a href="https://nz.developercommunity.org">
             New Zealand Developer Community
           </a>
         </div>
