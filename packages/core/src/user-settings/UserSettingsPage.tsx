@@ -17,6 +17,8 @@ export interface UserSettingsPageProps {
 const UserSettingsPage: React.FC<UserSettingsPageProps> = (props) => {
   // let { uid } = useParams();
 
+  
+
   return (
     <div css={css``}>
       UserSettingsPage component {firebase.auth().currentUser?.displayName}

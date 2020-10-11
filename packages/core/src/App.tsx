@@ -9,6 +9,7 @@ import {
   useParams,
 } from "react-router-dom";
 
+import "./ace.scss";
 import "./index.scss";
 import PageSection from "./page-sections/PageSection";
 import AuthSection from "./auth-section/AuthSection";
