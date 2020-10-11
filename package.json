@@ -1,0 +1,28 @@
+{
+  "name": "developercommunity",
+  "version": "1.0.0",
+  "description": "Website for \\",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Robbie-Cook/developercommunity.org.git"
+  },
+  "keywords": [
+    "developercommunity.org",
+    "developer",
+    "community",
+    "new",
+    "zealand",
+    "developer",
+    "community"
+  ],
+  "author": "Robbie Cook <robbie@robbie.pw>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developercommunity-org/developercommunity.org/issues"
+  },
+  "homepage": "https://github.com/developercommunity-org/developercommunity.org#readme"
+}
