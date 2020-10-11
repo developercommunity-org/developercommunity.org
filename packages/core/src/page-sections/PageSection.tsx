@@ -16,7 +16,11 @@ export interface PageSectionProps {
  */
 const PageSection: React.FC<PageSectionProps> = (props) => {
   return (
-    <section>
+    <section
+      css={css`
+        margin-bottom: 100px;
+      `}
+    >
       <h2 id={props.id}>{props.title}</h2>
       <div>{props.children}</div>
     </section>
