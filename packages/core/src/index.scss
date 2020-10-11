@@ -16,13 +16,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-
-  & *:not(script) {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
+  text-align: center;
 }
 
 img {
@@ -80,6 +74,7 @@ ol,
 ul,
 pre,
 blockquote {
+  text-align: left;
   margin-top: 1em;
   margin-bottom: 1em;
 }
