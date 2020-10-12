@@ -5,5 +5,5 @@ The DeveloperCommunity.org is a non-profit organization dedicated to helping and
 
 ## Contained Websites
 
-[https://developercommunity.org](International Developer Community)
+[developercommunity.org](Developer Community)
 New Zealand Developer Community (coming soon)
