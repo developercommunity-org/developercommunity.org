@@ -21,14 +21,14 @@ const HomePage: React.FC<HomePageProps> = (props) => {
         max-width: 1000px;
       `}
     >
-      <h1>Welcome to the International Developer Community!</h1>
+      <h1>Welcome to DeveloperCommunity.org!</h1>
       <PageSection title="Log In / Sign up">
         <AuthSection />
       </PageSection>
       <PageSection title="About">
         <div>
           <p>
-            The International Developer Community is a non-profit organization
+            DeveloperCommunity.org is a non-profit organization
             dedicated to helping and supporting software developers around the
             world.
           </p>
@@ -48,7 +48,7 @@ const HomePage: React.FC<HomePageProps> = (props) => {
       <PageSection title="Joining">
         <div>
           <p>
-            The International Developer Community is open to anyone with an
+            DeveloperCommunity.org is open to anyone with an
             interest in software development.
           </p>
           <p>
