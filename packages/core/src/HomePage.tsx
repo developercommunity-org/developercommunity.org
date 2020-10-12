@@ -21,7 +21,7 @@ const HomePage: React.FC<HomePageProps> = (props) => {
         max-width: 1000px;
       `}
     >
-      <h1>Welcome to DeveloperCommunity.org!</h1>
+      <h1>Welcome to the Dev Community!</h1>
       <PageSection title="Log In / Sign up">
         <AuthSection />
       </PageSection>
@@ -91,40 +91,14 @@ const HomePage: React.FC<HomePageProps> = (props) => {
               </p>
             </li>
             <li>
-              <h4>Boldness</h4>
-              <p>
-                With appropriate judiciousness and prior discussion, the
-                community reserves the privilege to hold and disseminate
-                political or social beliefs.
-              </p>
-              <p>
-                Members will be notified of any political or social policy or
-                beliefs, and have reasonable chance to respond openly to such
-                policy.
-              </p>
-            </li>
-            <li>
               <h4>Change</h4>
               <p>
                 With prior discussion and notice, the community reserves the
-                right to modify the constitution .
+                right to modify the constitution.
               </p>
             </li>
           </ul>
         </div>
-      </PageSection>
-      <PageSection title="Political Policy">
-        <p className="bold">
-          Note: Members are not required to support all policies that the
-          community backs.
-        </p>
-        <p>The community supports the Black Lives Matter movement.</p>
-        <p>
-          The community supports scientists and reputable scientific
-          communities.
-        </p>
-        <p>The community supports free and fair elections.</p>
-        <p>The community does not believe the earth is flat.</p>
       </PageSection>
     </main>
   );
