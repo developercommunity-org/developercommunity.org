@@ -32,10 +32,6 @@ const HomePage: React.FC<HomePageProps> = (props) => {
             dedicated to helping and supporting software developers around the
             world.
           </p>
-          <p>
-            The community was set up in 2020 as a organization to support and
-            connect developers.
-          </p>
         </div>
       </PageSection>
       <PageSection title="Organizations">
