@@ -28,9 +28,8 @@ const HomePage: React.FC<HomePageProps> = (props) => {
       <PageSection title="About">
         <div>
           <p>
-            DeveloperCommunity.org is a non-profit organization
-            dedicated to helping and supporting software developers around the
-            world.
+            DeveloperCommunity.org is a non-profit organization dedicated to
+            helping and supporting software developers around the world.
           </p>
         </div>
       </PageSection>
@@ -44,8 +43,8 @@ const HomePage: React.FC<HomePageProps> = (props) => {
       <PageSection title="Joining">
         <div>
           <p>
-            DeveloperCommunity.org is open to anyone with an
-            interest in software development.
+            DeveloperCommunity.org is open to anyone with an interest in
+            software development.
           </p>
           <p>
             All community members must abide by the{" "}
@@ -96,7 +95,7 @@ const HomePage: React.FC<HomePageProps> = (props) => {
               <p>
                 With appropriate judiciousness and prior discussion, the
                 community reserves the privilege to hold and disseminate
-                outspoken political or social beliefs.
+                political or social beliefs.
               </p>
               <p>
                 Members will be notified of any political or social policy or
@@ -107,8 +106,8 @@ const HomePage: React.FC<HomePageProps> = (props) => {
             <li>
               <h4>Change</h4>
               <p>
-                The committee reserves the right to modify the constitution with
-                prior discussion and notice.
+                With prior discussion and notice, the community reserves the
+                right to modify the constitution .
               </p>
             </li>
           </ul>
