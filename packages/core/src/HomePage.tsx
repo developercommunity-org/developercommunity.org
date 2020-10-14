@@ -22,7 +22,7 @@ const HomePage: React.FC<HomePageProps> = (props) => {
       `}
     >
       <h1>Welcome to the Dev Community!</h1>
-      <PageSection title="Log In / Sign up">
+      <PageSection title="Join">
         <AuthSection />
       </PageSection>
       <PageSection title="About">

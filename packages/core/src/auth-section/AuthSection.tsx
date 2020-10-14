@@ -96,7 +96,26 @@ const AuthSection: React.FC<AuthSectionProps> = (props) => {
       </div>
     </div>
   ) : (
-    <div id="firebaseui-auth-container"></div>
+    <section>
+      <div id="firebaseui-auth-container"></div>
+      <div
+        css={css`
+          font-size: 0.8em;
+          max-width: 300px;
+          margin: 30px auto;
+          & * {
+            text-align: center;
+          }
+        `}
+      >
+        <p>
+          We only receive your email address and profile image from this sign
+          on, which we will use only for official communications with
+          developercommunity.org.
+        </p>
+        <p>We will not use your data for any other purpose.</p>
+      </div>
+    </section>
   );
 };
 
