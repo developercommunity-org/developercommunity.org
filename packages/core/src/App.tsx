@@ -18,7 +18,7 @@ import UserSettingsPage from "./user-settings/UserSettingsPage";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAHa__H-94TcQ0pJ6A2D2Q_B8zNuIos4xg",
-  authDomain: "auth.developercommunity.org",
+  authDomain: "developercommunity-f64fa.firebaseapp.com",
   databaseURL: "https://developercommunity-f64fa.firebaseio.com",
   projectId: "developercommunity-f64fa",
   storageBucket: "developercommunity-f64fa.appspot.com",
